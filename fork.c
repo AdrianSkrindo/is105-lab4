@@ -1,5 +1,7 @@
-int main() {
-   fork();
-   fork();
-   fork();
+#include <unistd.h>
+
+int main () {
+	fork();
+	fork();
+	fork();
 }
